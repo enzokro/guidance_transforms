@@ -36,9 +36,10 @@ diffusion $\left( G = 7.5\right)$ and works it way down to a minimum of
 $0.15$.
 
 Next we create the same schedule, except with an initial `warmup`. With
-warmup, $G$ starts from $0.15$ and linearly works up to the maximum
-$G_\text{max} = 7.5$. In this case we warmup over the first 10% of the
-total steps. After warmup, the schedule decreases like a cosine curve.
+warmup, $G$ starts from $0.15$ and linearly works up to a maximum
+$G_\text{max} = 7.5$. Here we warmup over the first 10% of the total
+diffusion steps. After warmup, the schedule decreases following a cosine
+curve.
 
 Finally, we create a schedule with small values of $G$. This is meant
 for the guidance transform
