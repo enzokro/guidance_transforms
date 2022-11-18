@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "guidance_transforms"
+  site-url: "https://enzokro.github.io/guidance_transforms"
+  description: "Transforms for Classifier-free Guidance Diffusion"
+  repo-branch: main
+  repo-url: "https://github.com/enzokro/guidance_transforms"
