@@ -36,6 +36,9 @@ class GuidanceTfm:
         "Gets the scheduled value for parameter `name` at timestep `idx`."
         return self.schedules.get(name)[idx]
     
+    def __call__(self, *args, **kwargs):
+        return self.encode(*args, **kwargs)
+    
     
 class BaseNormGuidance(GuidanceTfm):
     "Scales the noise prediction by its overall norm."
