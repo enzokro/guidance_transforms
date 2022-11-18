@@ -2,8 +2,8 @@ project:
   output-dir: _docs
 
 website:
-  title: "guidance_transforms"
+  title: "cf_guidance"
   site-url: "https://enzokro.github.io/guidance_transforms"
-  description: "Transforms for Classifier-free Guidance Diffusion"
+  description: "Transforms for Classifier-free Guidance"
   repo-branch: main
   repo-url: "https://github.com/enzokro/guidance_transforms"
